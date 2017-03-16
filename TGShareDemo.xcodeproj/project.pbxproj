@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A8C0AC6E1E7A6FE2002A7395 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C0AC6D1E7A6FE2002A7395 /* main.m */; };
+		A8C0AC711E7A6FE2002A7395 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C0AC701E7A6FE2002A7395 /* AppDelegate.m */; };
+		A8C0AC741E7A6FE2002A7395 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C0AC731E7A6FE2002A7395 /* ViewController.m */; };
+		A8C0AC791E7A6FE3002A7395 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8C0AC781E7A6FE3002A7395 /* Assets.xcassets */; };
+		A8C0ACA51E7A7341002A7395 /* test.mov in Resources */ = {isa = PBXBuildFile; fileRef = A8C0ACA41E7A7341002A7395 /* test.mov */; };
+		A8C0ACDC1E7A897B002A7395 /* BLShareVideoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C0ACC41E7A897A002A7395 /* BLShareVideoModel.m */; };
+		A8C0ACDD1E7A897B002A7395 /* InstagramAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C0ACC81E7A897A002A7395 /* InstagramAuthViewController.m */; };
+		A8C0ACDE1E7A897B002A7395 /* InstagramAuthView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C0ACCB1E7A897A002A7395 /* InstagramAuthView.m */; };
+		A8C0ACDF1E7A897B002A7395 /* GTLR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8C0ACCD1E7A897A002A7395 /* GTLR.framework */; };
+		A8C0ACE01E7A897B002A7395 /* GTLRYouTubeObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C0ACD11E7A897B002A7395 /* GTLRYouTubeObjects.m */; };
+		A8C0ACE11E7A897B002A7395 /* GTLRYouTubeQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C0ACD31E7A897B002A7395 /* GTLRYouTubeQuery.m */; };
+		A8C0ACE21E7A897B002A7395 /* GTLRYouTubeService.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C0ACD51E7A897B002A7395 /* GTLRYouTubeService.m */; };
+		A8C0ACE31E7A897B002A7395 /* GTMSessionFetcherIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8C0ACD61E7A897B002A7395 /* GTMSessionFetcherIOS.framework */; };
+		A8C0ACE41E7A897B002A7395 /* BLYoutubeUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C0ACD91E7A897B002A7395 /* BLYoutubeUserViewController.m */; };
+		A8C0ACE51E7A897B002A7395 /* YouTubeControlModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C0ACDB1E7A897B002A7395 /* YouTubeControlModel.m */; };
+		A8C0ACE81E7A8990002A7395 /* GTLR.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A8C0ACE61E7A8990002A7395 /* GTLR.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A8C0ACE91E7A8990002A7395 /* GTMSessionFetcherIOS.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A8C0ACE71E7A8990002A7395 /* GTMSessionFetcherIOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A8C0ACED1E7A8ADB002A7395 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8C0ACEC1E7A8ADB002A7395 /* AssetsLibrary.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A8C0AC9B1E7A7217002A7395 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A8C0ACE81E7A8990002A7395 /* GTLR.framework in CopyFiles */,
+				A8C0ACE91E7A8990002A7395 /* GTMSessionFetcherIOS.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A8C0AC691E7A6FE2002A7395 /* TGShareDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TGShareDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8C0AC6D1E7A6FE2002A7395 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A8C0AC6F1E7A6FE2002A7395 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A8C0AC701E7A6FE2002A7395 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A8C0AC721E7A6FE2002A7395 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A8C0AC731E7A6FE2002A7395 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A8C0AC781E7A6FE3002A7395 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8C0AC7D1E7A6FE3002A7395 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8C0ACA41E7A7341002A7395 /* test.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = test.mov; sourceTree = "<group>"; };
+		A8C0ACC31E7A897A002A7395 /* BLShareVideoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLShareVideoModel.h; sourceTree = "<group>"; };
+		A8C0ACC41E7A897A002A7395 /* BLShareVideoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLShareVideoModel.m; sourceTree = "<group>"; };
+		A8C0ACC71E7A897A002A7395 /* InstagramAuthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstagramAuthViewController.h; sourceTree = "<group>"; };
+		A8C0ACC81E7A897A002A7395 /* InstagramAuthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstagramAuthViewController.m; sourceTree = "<group>"; };
+		A8C0ACCA1E7A897A002A7395 /* InstagramAuthView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstagramAuthView.h; sourceTree = "<group>"; };
+		A8C0ACCB1E7A897A002A7395 /* InstagramAuthView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstagramAuthView.m; sourceTree = "<group>"; };
+		A8C0ACCD1E7A897A002A7395 /* GTLR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GTLR.framework; sourceTree = "<group>"; };
+		A8C0ACCF1E7A897A002A7395 /* GTLRYouTube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLRYouTube.h; sourceTree = "<group>"; };
+		A8C0ACD01E7A897B002A7395 /* GTLRYouTubeObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLRYouTubeObjects.h; sourceTree = "<group>"; };
+		A8C0ACD11E7A897B002A7395 /* GTLRYouTubeObjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLRYouTubeObjects.m; sourceTree = "<group>"; };
+		A8C0ACD21E7A897B002A7395 /* GTLRYouTubeQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLRYouTubeQuery.h; sourceTree = "<group>"; };
+		A8C0ACD31E7A897B002A7395 /* GTLRYouTubeQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLRYouTubeQuery.m; sourceTree = "<group>"; };
+		A8C0ACD41E7A897B002A7395 /* GTLRYouTubeService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLRYouTubeService.h; sourceTree = "<group>"; };
+		A8C0ACD51E7A897B002A7395 /* GTLRYouTubeService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLRYouTubeService.m; sourceTree = "<group>"; };
+		A8C0ACD61E7A897B002A7395 /* GTMSessionFetcherIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GTMSessionFetcherIOS.framework; sourceTree = "<group>"; };
+		A8C0ACD81E7A897B002A7395 /* BLYoutubeUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLYoutubeUserViewController.h; sourceTree = "<group>"; };
+		A8C0ACD91E7A897B002A7395 /* BLYoutubeUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLYoutubeUserViewController.m; sourceTree = "<group>"; };
+		A8C0ACDA1E7A897B002A7395 /* YouTubeControlModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YouTubeControlModel.h; sourceTree = "<group>"; };
+		A8C0ACDB1E7A897B002A7395 /* YouTubeControlModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YouTubeControlModel.m; sourceTree = "<group>"; };
+		A8C0ACE61E7A8990002A7395 /* GTLR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GTLR.framework; path = TGShareDemo/TGShareSource/YouTube/GTLR.framework; sourceTree = "<group>"; };
+		A8C0ACE71E7A8990002A7395 /* GTMSessionFetcherIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GTMSessionFetcherIOS.framework; path = TGShareDemo/TGShareSource/YouTube/GTMSessionFetcherIOS.framework; sourceTree = "<group>"; };
+		A8C0ACEC1E7A8ADB002A7395 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8C0AC661E7A6FE2002A7395 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8C0ACED1E7A8ADB002A7395 /* AssetsLibrary.framework in Frameworks */,
+				A8C0ACE31E7A897B002A7395 /* GTMSessionFetcherIOS.framework in Frameworks */,
+				A8C0ACDF1E7A897B002A7395 /* GTLR.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8C0AC601E7A6FE2002A7395 = {
+			isa = PBXGroup;
+			children = (
+				A8C0ACE61E7A8990002A7395 /* GTLR.framework */,
+				A8C0ACE71E7A8990002A7395 /* GTMSessionFetcherIOS.framework */,
+				A8C0AC6B1E7A6FE2002A7395 /* TGShareDemo */,
+				A8C0AC6A1E7A6FE2002A7395 /* Products */,
+				A8C0AC831E7A702D002A7395 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A8C0AC6A1E7A6FE2002A7395 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8C0AC691E7A6FE2002A7395 /* TGShareDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8C0AC6B1E7A6FE2002A7395 /* TGShareDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A8C0AC6F1E7A6FE2002A7395 /* AppDelegate.h */,
+				A8C0AC701E7A6FE2002A7395 /* AppDelegate.m */,
+				A8C0AC721E7A6FE2002A7395 /* ViewController.h */,
+				A8C0AC731E7A6FE2002A7395 /* ViewController.m */,
+				A8C0ACC21E7A897A002A7395 /* TGShareSource */,
+				A8C0AC781E7A6FE3002A7395 /* Assets.xcassets */,
+				A8C0ACA41E7A7341002A7395 /* test.mov */,
+				A8C0AC7D1E7A6FE3002A7395 /* Info.plist */,
+				A8C0AC6C1E7A6FE2002A7395 /* Supporting Files */,
+			);
+			path = TGShareDemo;
+			sourceTree = "<group>";
+		};
+		A8C0AC6C1E7A6FE2002A7395 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8C0AC6D1E7A6FE2002A7395 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A8C0AC831E7A702D002A7395 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8C0ACEC1E7A8ADB002A7395 /* AssetsLibrary.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A8C0ACC21E7A897A002A7395 /* TGShareSource */ = {
+			isa = PBXGroup;
+			children = (
+				A8C0ACC31E7A897A002A7395 /* BLShareVideoModel.h */,
+				A8C0ACC41E7A897A002A7395 /* BLShareVideoModel.m */,
+				A8C0ACC51E7A897A002A7395 /* Instagram */,
+				A8C0ACCC1E7A897A002A7395 /* YouTube */,
+			);
+			path = TGShareSource;
+			sourceTree = "<group>";
+		};
+		A8C0ACC51E7A897A002A7395 /* Instagram */ = {
+			isa = PBXGroup;
+			children = (
+				A8C0ACC61E7A897A002A7395 /* Controller */,
+				A8C0ACC91E7A897A002A7395 /* View */,
+			);
+			path = Instagram;
+			sourceTree = "<group>";
+		};
+		A8C0ACC61E7A897A002A7395 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A8C0ACC71E7A897A002A7395 /* InstagramAuthViewController.h */,
+				A8C0ACC81E7A897A002A7395 /* InstagramAuthViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A8C0ACC91E7A897A002A7395 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A8C0ACCA1E7A897A002A7395 /* InstagramAuthView.h */,
+				A8C0ACCB1E7A897A002A7395 /* InstagramAuthView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A8C0ACCC1E7A897A002A7395 /* YouTube */ = {
+			isa = PBXGroup;
+			children = (
+				A8C0ACCD1E7A897A002A7395 /* GTLR.framework */,
+				A8C0ACCE1E7A897A002A7395 /* GTLRYouTube */,
+				A8C0ACD61E7A897B002A7395 /* GTMSessionFetcherIOS.framework */,
+				A8C0ACD71E7A897B002A7395 /* ViewController */,
+				A8C0ACDA1E7A897B002A7395 /* YouTubeControlModel.h */,
+				A8C0ACDB1E7A897B002A7395 /* YouTubeControlModel.m */,
+			);
+			path = YouTube;
+			sourceTree = "<group>";
+		};
+		A8C0ACCE1E7A897A002A7395 /* GTLRYouTube */ = {
+			isa = PBXGroup;
+			children = (
+				A8C0ACCF1E7A897A002A7395 /* GTLRYouTube.h */,
+				A8C0ACD01E7A897B002A7395 /* GTLRYouTubeObjects.h */,
+				A8C0ACD11E7A897B002A7395 /* GTLRYouTubeObjects.m */,
+				A8C0ACD21E7A897B002A7395 /* GTLRYouTubeQuery.h */,
+				A8C0ACD31E7A897B002A7395 /* GTLRYouTubeQuery.m */,
+				A8C0ACD41E7A897B002A7395 /* GTLRYouTubeService.h */,
+				A8C0ACD51E7A897B002A7395 /* GTLRYouTubeService.m */,
+			);
+			path = GTLRYouTube;
+			sourceTree = "<group>";
+		};
+		A8C0ACD71E7A897B002A7395 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A8C0ACD81E7A897B002A7395 /* BLYoutubeUserViewController.h */,
+				A8C0ACD91E7A897B002A7395 /* BLYoutubeUserViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8C0AC681E7A6FE2002A7395 /* TGShareDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8C0AC801E7A6FE3002A7395 /* Build configuration list for PBXNativeTarget "TGShareDemo" */;
+			buildPhases = (
+				A8C0AC651E7A6FE2002A7395 /* Sources */,
+				A8C0AC661E7A6FE2002A7395 /* Frameworks */,
+				A8C0AC671E7A6FE2002A7395 /* Resources */,
+				A8C0AC9B1E7A7217002A7395 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TGShareDemo;
+			productName = TGShareDemo;
+			productReference = A8C0AC691E7A6FE2002A7395 /* TGShareDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8C0AC611E7A6FE2002A7395 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = xlong;
+				TargetAttributes = {
+					A8C0AC681E7A6FE2002A7395 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = X45YY3GJBX;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A8C0AC641E7A6FE2002A7395 /* Build configuration list for PBXProject "TGShareDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8C0AC601E7A6FE2002A7395;
+			productRefGroup = A8C0AC6A1E7A6FE2002A7395 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8C0AC681E7A6FE2002A7395 /* TGShareDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8C0AC671E7A6FE2002A7395 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8C0ACA51E7A7341002A7395 /* test.mov in Resources */,
+				A8C0AC791E7A6FE3002A7395 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8C0AC651E7A6FE2002A7395 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8C0ACE21E7A897B002A7395 /* GTLRYouTubeService.m in Sources */,
+				A8C0ACDE1E7A897B002A7395 /* InstagramAuthView.m in Sources */,
+				A8C0ACDC1E7A897B002A7395 /* BLShareVideoModel.m in Sources */,
+				A8C0AC741E7A6FE2002A7395 /* ViewController.m in Sources */,
+				A8C0ACE41E7A897B002A7395 /* BLYoutubeUserViewController.m in Sources */,
+				A8C0AC711E7A6FE2002A7395 /* AppDelegate.m in Sources */,
+				A8C0ACE11E7A897B002A7395 /* GTLRYouTubeQuery.m in Sources */,
+				A8C0ACE51E7A897B002A7395 /* YouTubeControlModel.m in Sources */,
+				A8C0ACDD1E7A897B002A7395 /* InstagramAuthViewController.m in Sources */,
+				A8C0AC6E1E7A6FE2002A7395 /* main.m in Sources */,
+				A8C0ACE01E7A897B002A7395 /* GTLRYouTubeObjects.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A8C0AC7E1E7A6FE3002A7395 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A8C0AC7F1E7A6FE3002A7395 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8C0AC811E7A6FE3002A7395 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X45YY3GJBX;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/TGShareDemo/YouTube",
+					"$(PROJECT_DIR)/TGShareDemo/TGShareSource/YouTube",
+				);
+				INFOPLIST_FILE = TGShareDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xlong.test.TGShareDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A8C0AC821E7A6FE3002A7395 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X45YY3GJBX;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/TGShareDemo/YouTube",
+					"$(PROJECT_DIR)/TGShareDemo/TGShareSource/YouTube",
+				);
+				INFOPLIST_FILE = TGShareDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xlong.test.TGShareDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8C0AC641E7A6FE2002A7395 /* Build configuration list for PBXProject "TGShareDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8C0AC7E1E7A6FE3002A7395 /* Debug */,
+				A8C0AC7F1E7A6FE3002A7395 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8C0AC801E7A6FE3002A7395 /* Build configuration list for PBXNativeTarget "TGShareDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8C0AC811E7A6FE3002A7395 /* Debug */,
+				A8C0AC821E7A6FE3002A7395 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8C0AC611E7A6FE2002A7395 /* Project object */;
+}

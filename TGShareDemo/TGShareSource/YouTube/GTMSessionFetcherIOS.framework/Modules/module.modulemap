@@ -1,0 +1,6 @@
+framework module GTMSessionFetcherIOS {
+  umbrella header "GTMSessionFetcherIOS.h"
+
+  export *
+  module * { export * }
+}
