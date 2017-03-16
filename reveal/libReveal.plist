@@ -1,0 +1,13 @@
+{
+    Filter = {
+        Bundles = (
+        	"com.apple.AppStore",
+        	"com.apple.MobileAddressBook",
+        	"com.tencent.mqq",
+        	"com.tencent.xin",
+        	"com.apple.AppStore",
+        	"com.yuedou.yylgOne",
+            "com.yuedou.yylg"
+        );
+    };
+}
