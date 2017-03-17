@@ -9,7 +9,6 @@
 #import "InstagramAuthView.h"
 
 #define INSTAGRAM_CLIENT_ID @"2b96416fd11d46249f47fd4813eb7a71"
-#define INSTAGRAM_CLIENT_SECRET @"4be0f8a9a721477fbc5bcc126d54b1fa"
 #define INSTAGRAM_CALLBACK_BASE @"bigolive://"
 
 @interface InstagramAuthView () <UIWebViewDelegate>
