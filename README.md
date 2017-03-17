@@ -73,12 +73,12 @@
 #### The demo's result:
 <hr>
 
-![](./img/0.png)
-![](./img/1.png)
-![](./img/2.png)
-![](./img/3.png)
-![](./img/4.png)
-![](./img/5.png)
+<img src="./img/0.png" width="120px">
+<img src="./img/1.png" width="120px">
+<img src="./img/2.png" width="120px"></br></br>
+<img src="./img/3.png" width="120px">
+<img src="./img/4.png" width="120px">
+<img src="./img/5.png" width="120px">
 
 
 #### License
